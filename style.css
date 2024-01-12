@@ -6,8 +6,6 @@
 
 :root {
   --border-color: #1a1a1a1a;
-  --animation-color-1: #2370f5;
-  --animation-color-2: #b91fdc;
 }
 
 body {
@@ -83,12 +81,12 @@ body {
     0deg,
     transparent,
     transparent,
-    --animation-color-1,
-    --animation-color-1,
-    --animation-color-1
+    #ffb6c1,
+    #0077cc,
+    #0077cc
   );
   z-index: 1;
-  transform-origin: bottom rigth;
+  transform-origin: bottom right;
   animation: tourneAuTour 5s linear infinite;
 }
 
@@ -103,12 +101,12 @@ body {
     0deg,
     transparent,
     transparent,
-    --animation-color-2,
-    --animation-color-2,
-    --animation-color-2
+    #ffd700,
+    #b91fdc,
+    #66cc99
   );
   z-index: 0;
-  transform-origin: bottom rigth;
+  transform-origin: bottom right;
   animation: tourneAuTour 5s linear infinite;
   animation-delay: -3s;
 }
@@ -137,7 +135,7 @@ body {
     width: 60%;
   }
   .clock {
-    font-size: '3rem';
+    font-size: 3rem;
   }
 }
 
